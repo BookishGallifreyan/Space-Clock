@@ -1,0 +1,25 @@
+body {
+  background-image: url(assets/feat-STScI-01G7ETNMR8CBHQQ64R4CVA1E6T.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock-container {
+  backdrop-filter: blur(1px);
+}
+
+.clock {
+  color: aquamarine;
+  font-size: 6rem;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px grey;
+}
